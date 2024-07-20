@@ -36,12 +36,8 @@ iteration within each repeat generates a fresh dataset, leading to a more precis
 
    Insertion Sort is less efficient for larger datasets but might be useful for small or nearly sorted data.
    Merge Sort offers a consistent O(n log n) performance, but Timsort’s optimizations make it faster in practice.
-   Conclusion:
+
+5. Conclusion:
    For the given case, Timsort is the most effective sorting algorithm. The empirical results support the theoretical
    estimates of the algorithms’ complexities. Timsort's design, which integrates insertion sort and merge sort, provides
    superior performance, especially for real-world data where existing order can be leveraged.
-
-Summary:
-Insertion Sort: Best for small or nearly sorted datasets.
-Merge Sort: Reliable O(n log n) performance, suitable for large datasets.
-Timsort: Superior overall performance, combining both insertion and merge sort, making it the most effective for diverse datasets.
